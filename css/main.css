@@ -1,3 +1,107 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
 
+html {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.result {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem 4rem 2rem;
+  background: linear-gradient(#7857ff, #2e2be9);
+  border-radius: 0 0 1.8rem 1.8rem;
+  -webkit-border-radius: 0 0 1.8rem 1.8rem;
+  -moz-border-radius: 0 0 1.8rem 1.8rem;
+  -ms-border-radius: 0 0 1.8rem 1.8rem;
+  -o-border-radius: 0 0 1.8rem 1.8rem;
+}
+.result__name {
+  color: #c8c7ff;
+  font-size: 0.9rem;
+}
+.result__circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 50%;
+  height: 6.5rem;
+  width: 6.5rem;
+  background: linear-gradient(#4e21ca, rgba(36, 33, 202, 0));
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.result__circle-current {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.result__circle-total {
+  color: #9087ff;
+  font-size: 0.8rem;
+}
+.result__feel {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.result__description {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #c8c7ff;
+}
+
+.summary {
+  background-color: #ffffff;
+  padding: 1.3rem 2rem;
+}
+.summary__name {
+  font-weight: 700;
+}
+.summary__list {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.summary__item {
+  background-color: lavender;
+  width: 100%;
+  padding: 0.8rem 0.6rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.summary__item-name {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
 
 /*# sourceMappingURL=main.css.map */
